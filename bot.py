@@ -5,7 +5,7 @@ import time
 import slot_machine
 
 
-bot = telebot.TeleBot(config.alternative_token)
+bot = telebot.TeleBot("6265946769:AAGTVii7Tl8gJ60ibxs-p_q8zNBMyNUHQSk")
 markup_casino = types.ReplyKeyboardMarkup(row_width=2)
 markup_casino.row('Потянуть рычаг! 💰', 'Изменить ставку')
 markup_casino.row('Выйти из казино', 'Правила игры 📝')
